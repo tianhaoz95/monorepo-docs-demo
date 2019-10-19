@@ -26,12 +26,16 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "lib/cli.js"
+    "start": "lib/cli.js",
+    "docs": "mkdir -p ../../website/static/gendocs/open-jacksonz-medium && documentation build ./lib/** -f html -o docs && cp -r ./docs/* ../../website/static/gendocs/open-jacksonz-medium"
   },
   "bugs": {
     "url": "https://github.com/tianhaoz95/monorepo-docs-demo/issues"
   },
   "dependencies": {
     "open": "^7.0.0"
+  },
+  "devDependencies": {
+    "documentation": "^12.1.2"
   }
 }

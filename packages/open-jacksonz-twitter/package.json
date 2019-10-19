@@ -26,7 +26,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "lib/cli.js"
+    "start": "lib/cli.js",
+    "docs": "mkdir -p ../../website/static gendocs && jsdoc && cp -r ./out ../../website/static/gendocs"
   },
   "bugs": {
     "url": "https://github.com/tianhaoz95/monorepo-docs-demo/issues"
