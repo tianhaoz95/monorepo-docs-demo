@@ -1,0 +1,37 @@
+{
+  "name": "open-jacksonz-medium",
+  "version": "0.0.0",
+  "description": "A CLI to open JacksonZ's Medium profile.",
+  "keywords": [
+    "Medium",
+    "JacksonZ"
+  ],
+  "author": "tianhaoz95 <tianhaoz@umich.edu>",
+  "homepage": "http://tianhaoz.com",
+  "license": "ISC",
+  "main": "lib/open-jacksonz-medium.js",
+  "bin": {
+    "open-jacksonz-medium": "lib/cli.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianhaoz95/monorepo-docs-demo.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "lib/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/tianhaoz95/monorepo-docs-demo/issues"
+  },
+  "dependencies": {
+    "open": "^7.0.0"
+  }
+}
